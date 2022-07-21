@@ -6,7 +6,9 @@
         <meta charset="UTF-8">
         <title> Challenger 01 Oracle One Alura</title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css">
+        -->
+        <link rel="stylesheet" href="styleflex.css">
     </head>
 
     <body>
@@ -20,10 +22,12 @@
             <seccion class="contenedor" id="contenedor">  
                 <form name="form1" id="form1" class="formulario">
                     <label for="eltex" class="eltex">Introdusca el texto aqui:</label>
-                    <textarea cols="70" rows="10" type="text" id="eltex" name="eltex" class="entradatex"> </textarea>
+                    <textarea cols="60" rows="10" type="text" id="eltex" name="eltex" class="entradatex"> </textarea>
                     <p> Solo letras minusculas y sin acentos </p>
-                    <input type="submit" value="Encriptar" id="boton_enc" class="boton_enc"/> 
-                    <input type="submit" value="Desencriptar" id="boton_des"  class="boton_des" />
+                    <div class="botones"> 
+                        <input type="submit" value="Encriptar" id="boton_enc" class="boton_enc"/> 
+                        <input type="submit" value="Desencriptar" id="boton_des"  class="boton_des" />
+                    </div>
                 </form>
 
                 

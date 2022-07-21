@@ -1,0 +1,71 @@
+body{
+    background-color: #F3F5FC; 
+    
+}
+
+h1{
+    color: #0A3871;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+main .contenedor .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+.eltex{
+    color: #0A3871;
+    font-size: 1.5em;
+    margin-left: 5%;    
+    }
+
+.entradatex{
+    width: 43%;
+    margin-left: 5%;
+}
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: 5%;
+    margin-top: 3%;
+    
+}
+
+
+
+#boton_enc{
+    background-color: #0A3871;
+    color: white;
+    width: 20em;
+    height: 3em;
+    border-width: 0;
+}
+
+
+#boton_des{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 20em;
+    margin-left: 5%;
+    border-width: 0;
+}
+
+p{
+    color: #0A3871;
+    margin-left: 5%;
+}
+
+.mostrarcrip{
+    background-color: aqua;
+}

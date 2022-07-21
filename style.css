@@ -33,7 +33,7 @@ h1{
     }
 
 .entradatex{
-    display: block;
+    display:list-item;
     margin: 3em;
 }
 
