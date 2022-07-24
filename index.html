@@ -21,27 +21,34 @@
 
             <seccion class="contenedor" id="contenedor">  
                 <form name="form1" id="form1" class="formulario">
-                    <label for="eltex" class="eltex">Introdusca el texto aqui:</label>
-                    <textarea cols="60" rows="10" type="text" id="eltex" name="eltex" class="entradatex"> </textarea>
-                    <p> Solo letras minusculas y sin acentos </p>
+
+                    <label for="eltex" class="eltex">Introdusca el texto aqui:</label> <br>
+                    </div class="textos">    
+                        <textarea cols="50" rows="10" type="text" id="eltex" name="eltex" class="entradatex"> </textarea>
+                        <textarea cols="50" rows="10" type="text" id="textoe" name="textoe" class="textoe"> </textarea>
+                        
+                    </div>
+
+                    <p class="leyenda"> Solo letras minusculas y sin acentos </p>
+                    
                     <div class="botones"> 
                         <input type="submit" value="Encriptar" id="boton_enc" class="boton_enc"/> 
                         <input type="submit" value="Desencriptar" id="boton_des"  class="boton_des" />
+                        <input type="submit" value="Copiar" id="boton_cop"  class="boton_cop" />
                     </div>
                 </form>
 
-                
-
-                <span id="mostrarcrip"> </span>
             </seccion>
         
         </main>
 
 
         <footer>
-            
+            <p class="texpie"> Todos los derechos reservados.</p>
         </footer>
 
+        <script src="js/encriptar.js"> </script>
+        <script src="js/desencriptar.js"> </script>
     </body>
 
 </html>
