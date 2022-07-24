@@ -43,7 +43,7 @@ botonenc.addEventListener("click",function(event){
                 break;
             case "u":
                 if((tex_arr[x]+tex_arr[x+1]+tex_arr[x+2]+tex_arr[x+3])=="ufat"){
-                    texorg=texorg+"ufat";
+                    texorg=texorg+"u";
                     x=x+3;
                 }
                 break;
